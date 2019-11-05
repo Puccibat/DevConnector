@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Scema = mongoose.Schema;
+const Schema = mongoose.Schema;
 
 const PostSchema = new Schema({
   user: {
@@ -8,7 +8,7 @@ const PostSchema = new Schema({
   },
   text: {
     type: String,
-    required: TextTrackCue
+    required: true
   },
   name: {
     type: String
